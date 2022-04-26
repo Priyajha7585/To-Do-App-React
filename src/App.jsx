@@ -42,7 +42,7 @@ class App extends Component {
                   <h1 className="text-center">Today's Plan</h1>
                   <div className="row">
                     <div className="col-9 p-2">
-                      <input type="text" className="form-control" placeholder='Write plan here' 
+                      <input type="text" className="form-control" placeholder='Write a task here' 
                       value={this.state.text} onChange={this.handleChange}
                       />
                     </div>
